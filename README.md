@@ -51,12 +51,25 @@ Run the main script: Start the interactive menu and choose a visual style:
 
 ## Available Styles 🎨
 
-* Basic Style: Displays static bars with simple frequency simulation.
-* Wave Style: Adds wave-like motion to the bars.
-* Flashing Style: Alternates between full and empty bars to simulate flashing.
-* Gradual Color Style: Uses a color gradient based on the height of the bars.
-* Alternating Symbols Style: Displays bars with alternating symbols and colors.
+* `Basic Style`: Displays static bars with simple frequency simulation.
+* `Wave Style`: Adds wave-like motion to the bars.
+* `Flashing Style`: Alternates between full and empty bars to simulate flashing.
+* `Gradual Color Style`: Uses a color gradient based on the height of the bars.
+* `Alternating Symbols Style`: Displays bars with alternating symbols and colors.
 
+## Modifying the equalizer's bars 📊
+Making Changes to effect lenght and fluctuation speed:
+
+* Increase the maximum height of the bars: By modifying the height variable, you can increase the maximum possible height of the bars.
+* Increase the range of random fluctuations: You can scale up the random fluctuations that determine the height of the bars.
+* Adjust the bar height multiplier: You can apply a multiplier to the bar_height to make it more pronounced.
+
+Example: `basic_style` (adjusting height & fluctuation)
+```bash
+Line 5		height=60   # Maximum height of the bars
+
+Line 17		fluctuation=$((RANDOM % 12 - 6))  # Random fluctuation
+```
 ## ✍️ Author
 
 | Name:             | Description                                       |
