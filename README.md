@@ -3,7 +3,7 @@
 ![Shell Script](https://img.shields.io/badge/Bash-IPv6Shield-blue.svg)
 ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen.svg)
 ![Size](https://img.shields.io/github/repo-size/DouglasFreshHabian/BashBeats)
-![Build Status](https://img.shields.io/github/workflow/status/DouglasFreshHabian/BashBeats/.github/workflows/readme-checker?label=readme-check)
+
 
 [![asciicast](https://asciinema.org/a/717434.svg)](https://asciinema.org/a/717434)
 <h1 align="center">
