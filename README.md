@@ -58,11 +58,11 @@ Run the main script: Start the interactive menu and choose a visual style:
 * `Alternating Symbols Style`: Displays bars with alternating symbols and colors.
 
 ## Modifying the equalizer's bars 📊
-Making Changes to effect lenght and fluctuation speed:
+Making Changes to effect length and fluctuation speed:
 
-* Increase the maximum height of the bars: By modifying the height variable, you can increase the maximum possible height of the bars.
-* Increase the range of random fluctuations: You can scale up the random fluctuations that determine the height of the bars.
-* Adjust the bar height multiplier: You can apply a multiplier to the bar_height to make it more pronounced.
+* By modifying the height variable, you can increase the maximum possible height of the bars.
+* You can scale up the random fluctuations that determine the height of the bars.
+* You can apply a multiplier to the bar_height to make it more pronounced.
 
 Example: `basic_style` (adjusting height & fluctuation)
 ```bash
