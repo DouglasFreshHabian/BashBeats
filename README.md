@@ -4,7 +4,6 @@
 ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen.svg)
 ![Size](https://img.shields.io/github/repo-size/DouglasFreshHabian/BashBeats)
 ![Kali Linux](https://img.shields.io/badge/Tested-Kali%20Linux-153f86?logo=kalilinux&logoColor=blue&colorA=white)
-![Raspberry Pi](https://img.shields.io/badge/Tested-Raspberry%20Pi-C51A2B.svg)
 ![Debian/Ubuntu](https://img.shields.io/badge/Tested-Ubuntu-77216F.svg)
 
 
