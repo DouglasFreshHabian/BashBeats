@@ -105,11 +105,11 @@ Your contributions help fuel future updates, testing, and new features.
 
 Every bit of support is appreciated — thank you!
 
-
 ### If you have not done so already, please head over to the channel and hit that subscribe button to show some support. Thank you!!!
 
 ## 👍 [Stay Fresh](https://www.youtube.com/@DouglasHabian-tq5ck) 
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=20&color=5BFF16&width=435&lines=%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E;%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E;%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E;%3E%3E%3E%3E%3E%3E%3E%3E%3E)](https://git.io/typing-svg)
 <!-- Reach out to me if you are interested in collaboration or want to contract with me for any of the following:
 	Building Github Pages
 	Creating Youtube Videos
