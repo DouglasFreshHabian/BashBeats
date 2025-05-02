@@ -39,9 +39,14 @@ start_basic_style() {
     bash basic_style.sh
 }
 
-# Function to start Alternating Symbols Style
-start_alternating_symbols_style() {
-    bash alternating_symbols_style.sh
+# Function to start Symbols Style
+start_symbols_style() {
+    bash symbols.sh
+}
+
+# Function to start SymbolStorm Style
+start_symbolStorm_style() {
+    bash symbolStorm.sh
 }
 
 # Function to start Flashing Style
@@ -59,6 +64,76 @@ start_wave_style() {
     bash wave_style.sh
 }
 
+# Function to start Inferno Pulse Style
+start_inferno_pulse_style() {
+    bash inferno_pulse_style.sh
+}
+
+# Function to start Blueberry Pulse Style
+start_blueberry_pulse_style() {
+    bash blueberry_pulse_style.sh
+}
+
+# Function to start Tetris Style
+start_tetris_style() {
+    bash tetris_style.sh
+}
+
+# Function to start wFlicker Style
+start_flicker_style() {
+    bash flicker_style.sh
+}
+
+# Function to start BananaGroove Style
+start_banana_groove_style() {
+    bash banana_groove_style.sh
+}
+
+# Function to start Gray Style
+start_gray_style() {
+    bash gray_style.sh
+}
+
+# Function to start Gray Style
+start_emojiwave_style() {
+    bash emojiwave_style.sh
+}
+
+# Function to start Emoji Heart Style
+start_emojiheart_style() {
+    bash emojiheart_style.sh
+}
+
+# Function to start Lunoji Style
+start_lunoji_style() {
+    bash lunoji_style.sh
+}
+
+# Function to start cosmiQ Style
+start_cosmiq_style() {
+    bash cosmiq_style.sh
+}
+
+# Function to start TokyoTuner Style
+start_tokyotuner_style() {
+    bash tokyoTuner.sh
+}
+
+# Function to start VolumeVibes Style
+start_volumeVibes_style() {
+    bash volumeVibes.sh
+}
+
+# Function to start diskBeats Style
+start_diskBeats_style() {
+    bash diskBeats.sh
+}
+
+# Function to print Ascii QR-Code to Screen
+print_qr_code() {
+    echo "https://www.youtube.com/@DouglasHabian-tq5ck" | qr --ascii
+}
+
 # Print the banner in the chosen color
 print_banner() {
   echo -e "${WHITEB}"
@@ -74,17 +149,32 @@ main_menu() {
     clear
     echo
       for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m##\e[0m" ; done ; echo
-    echo -e "${WHITEB}Select \e[5m${GREENH}Equalizer${RESET} \e[25m${WHITE}Style"
+    echo -e "${WHITEB}Select \e[5m${YELLOWH}E${BLUEB}q${REDH}u${CYANB}a${GREENH}l${PURPLEB}i${REDB}z${BLUEH}e${YELLOWB}r${RESET} \e[25m${WHITE}Style"
       for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m##\e[0m" ; done ; echo
     echo
-    echo -e "${WHITEB}1. ${BLUE}Basic Style${RESET}"
-    echo -e "${WHITEB}2. ${CYANB}Wave ${CYAN}Style"
-    echo -e "${WHITEB}3. ${REDB}Flashing ${YELLOWB}Style"
-    echo -e "${WHITEB}4. ${PURPLE}Gradual ${PURPLEB}Color ${PURPLEH}Style"
-    echo -e "${WHITEB}5. ${YELLOWB}Alternating ${GREENB}Symbols ${REDB}Style"
-    echo -e "${WHITEB}6. ${BOLDU}Exit${RESET}"
-    echo
-    read -p "Enter your choice [1-6]: " choice
+    echo -e "${WHITEB}1.  ${BLUEB}Basic ${WHITEB}"
+    echo -e "${WHITEB}2.  ${CYANB}Wave ${WHITEB}"
+    echo -e "${WHITEB}3.  ${REDB}Fl${YELLOWB}ash${REDB}ing ${WHITEB}"
+    echo -e "${WHITEB}4.  ${PURPLE}Gra${PURPLEB}du${PURPLEH}al ${WHITEB}"
+    echo -e "${WHITEB}5.  ${YELLOWB}S${GREENB}y${REDB}m${YELLOWB}b${GREENB}o${REDB}l${YELLOWB}s ${WHITEB}"
+    echo -e "${WHITEB}6.  ${PURPLEB}Blueberry${PURPLEH}Pulse ${WHITEB}"
+    echo -e "${WHITEB}7.  ${YELLOWB}Banana${YELLOWH}Groove ${WHITEB}"
+    echo -e "${WHITEB}8.  ${REDB}Inferno${REDH}Pulse ${WHITEB}"
+    echo -e "${WHITEB}9.  ${YELLOWB}S${GREENB}y${REDB}m${YELLOWB}b${GREENB}o${REDB}l${YELLOWB}Storm ${WHITEB}"
+    echo -e "${WHITEB}10. ${GREENB}T${GREENH}e${GREENB}tr${BLUEB}i${GREENB}s ${WHITEB}"
+    echo -e "${WHITEB}11. ${YELLOWH}Fl${YELLOW}i${YELLOWH}cker ${WHITEB}"
+    echo -e "${WHITEB}12. ${BLACKH}Gray${RESET}"
+    echo -e "${WHITEB}13. ${GREENH}Emoji${BLUEH}Wave${RESET}™️ "
+    echo -e "${WHITEB}14. ${PURPLE}Emoji${RED}Heart${RESET}💕 "
+    echo -e "${WHITEB}15. ${BLACKH}Lunoji${RESET}🌜"
+    echo -e "${WHITEB}16. ${CYANB}CosmiQ${RESET}♏"
+    echo -e "${WHITEB}17. ${BLUE}Tokyo${YELLOW}Tuner${RESET}🉐"
+    echo -e "${WHITEB}18. ${REDB}Volume${GREENB}Vibes📘${RESET}"
+    echo -e "${WHITEB}19. ${BLACKH}Disk${WHITEH}Beats⚫${RESET}"
+    echo -e "${WHITEB}20. ${BLUEH}Display \e[40;37;5;82m Qr-\e[30;47;5;82mCode${RESET}."    
+    echo -e "${WHITEB}21. ${BOLDU}Exit${RESET}"
+    echo -e "${WHITEB}"
+    read -p "Enter your choice [1-20]: " choice
 
     case $choice in
         1)
@@ -100,10 +190,55 @@ main_menu() {
             start_gradual_color_style
             ;;
         5)
-            start_alternating_symbols_style
+            start_symbols_style
             ;;
         6)
-            echo -e "${GREENB}Goodbye${RESET}!"
+            start_blueberry_pulse_style
+            ;;
+        7)
+            start_banana_groove_style
+            ;;
+        8)
+            start_inferno_pulse_style
+            ;;
+        9)
+            start_symbolStorm_style
+            ;;
+        10)
+            start_tetris_style
+            ;;
+        11)
+            start_flicker_style
+            ;;
+        12)
+            start_gray_style
+            ;;
+        13)
+            start_emojiwave_style
+            ;;
+        14)
+            start_emojiheart_style
+            ;;
+        15)
+            start_lunoji_style
+            ;;
+        16)
+            start_cosmiq_style
+            ;;
+        17)
+            start_tokyotuner_style
+            ;;
+        18)
+            start_volumeVibes_style
+            ;;
+        19)
+            start_diskBeats_style
+            ;;
+        20)
+            print_qr_code
+            ;;
+        21)
+            echo -e "${GREENB}G${GREEN}oo${GREENB}dbye${RESET}!"
             exit 0
             ;;
         *)
@@ -116,4 +251,5 @@ main_menu() {
 
 # Start the menu
 print_banner
+sleep 1
 main_menu
