@@ -12,6 +12,14 @@
 🎵 Project Name: BashBeats 🔊
 </h1>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=20&color=FF7204&width=435&lines=%23%23%23%23%23%23%23;%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23;%23%23%23;%23%23%23%23%23%23%23%23%23%23%23)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=20&color=1BFF2C&width=435&lines=%23%23%23%23%23%23%23;%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23;%23%23%23;%23%23%23%23%23%23%23%23%23%23%23)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=20&color=1120FF&width=435&lines=%23%23%23%23%23%23%23;%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23;%23%23%23;%23%23%23%23%23%23%23%23%23%23%23)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=20&color=FF0000&width=435&lines=%23%23%23%23%23%23%23;%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23;%23%23%23;%23%23%23%23%23%23%23%23%23%23%23)](https://git.io/typing-svg)
+
+
+
+
 ## Overview ☑️
 
 This project features multiple terminal-based visual styles that simulate music equalizer bars with different color schemes and effects. The user can choose from various visual styles, including **Basic**, **Wave**, **Flashing**, **Gradual Color**, and **Alternating Symbols**.
