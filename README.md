@@ -86,7 +86,7 @@ Line 17		fluctuation=$((RANDOM % 12 - 6))  # Random fluctuation
 | :---------------- | :------------------------------------------------ |
 | Script:           | equalizer.sh                                      |
 | Author:           | Douglas Habian                                    |
-| Version:          | 1.1                                               |
+| Version:          | 1.2                                               |
 | Repo:             | https://github.com/DouglasFreshHabian/BashBeats   |
 
 ## 💬 Feedback & Contributions
