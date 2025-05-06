@@ -8,6 +8,7 @@
 
 
 [![asciicast](https://asciinema.org/a/717434.svg)](https://asciinema.org/a/717434)
+
 <h1 align="center">
 🎵 Project Name: BashBeats 🔊
 </h1>
